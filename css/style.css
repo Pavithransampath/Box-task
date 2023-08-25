@@ -1,0 +1,140 @@
+
+
+.background{
+    border-style: dashed;
+    background-color: blue;
+    border-color: black;
+    
+}
+.left{
+    border-style: dotted;
+    text-align: left;
+    border-color: aqua;
+    
+}
+.right{
+    border-style: double;
+    text-align: right;
+    border-color: brown;
+}
+.justify {
+    border-style: groove;
+    text-align: justify;
+    border-color: blueviolet;
+}
+.center{
+    border-style: hidden;
+    text-align: center;
+    border-color: black;
+}
+.lastright {
+    border-style: inherit;
+    text-align-last: right;
+    border-color: red;
+}
+.lastleft{
+    border-style: inset;
+    text-align-last: left;
+    border-color: blue;
+}
+.lastcentre{
+    border-style: initial;
+    text-align-last: center;
+    border-color: green;
+}
+.lastjustify{
+    border-style: outset;
+    text-align-last: justify;
+    border-color: yellow;
+}
+.rtl{
+    border-style: ridge;
+    direction: rtl;
+    border-color: orange;
+}
+.ltf{
+    direction: ltr;
+    border-color: violet;
+}
+.line{
+    text-decoration-line: overline;
+    border-color: aquamarine;
+}
+.underline{
+    text-decoration-line: underline;
+    border-color: magenta;
+}
+/*.color{
+    text-decoration-color: rgb(44, 9, 199);
+}
+.style{
+    text-decoration-style: dashed;
+
+}
+.thickness{
+    text-decoration-thickness: 3px;
+}*/
+.textindent{
+    text-indent:50px ;
+    border-color: black;
+}
+.textspacing{
+    letter-spacing: 20px;
+    border-color: yellow;
+}
+.textheight{
+    line-height: 200px;
+    border-color: pink;
+}
+.wordspacing{
+    word-spacing: 500px;
+    border-color: brown;
+}
+.nowrap{
+    white-space:nowrap;
+    border-color:red ;
+}
+.prewrap {
+    white-space: pre-wrap;
+    border-color: blueviolet;
+}
+.uppercase{
+    text-transform: uppercase;
+    border-color: blue;
+}
+.lowercase {
+    text-transform: lowercase;
+    border-color: black;
+    box-shadow: 10px 10px;
+}
+.caps {
+    text-transform: capitalize;
+    border-color: aqua;
+}
+.differentborder{
+border-color: red blue green yellow ;
+}
+.baseline h2 img {
+
+    vertical-align: baseline;
+    border-color: hotpink;
+}
+
+.texttop h3 img {
+
+
+    vertical-align: text-top;
+    border-color: mediumslateblue;
+}
+
+.textbottom h4 img {
+
+    vertical-align: text-bottom;
+    border-color: blueviolet;
+}
+.shadow{
+    text-shadow:20px 20px;
+}
+.img5 {
+    vertical-align:sup;
+}
